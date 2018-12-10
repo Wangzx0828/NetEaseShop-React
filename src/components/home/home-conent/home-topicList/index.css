@@ -1,0 +1,53 @@
+.home-topicList {
+  width: 100%;
+  height: 284px;
+  background-color: #fff;
+}
+.home-topicList .home-topicList-header {
+  font-size: 16px;
+  width: 375px;
+  height: 55px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.home-topicList .home-topicList-header img {
+  margin-left: 8px;
+  width: 15px;
+  height: 15px;
+}
+.home-topicList .swiper-window {
+  margin-left: 15px;
+  width: 100%;
+  height: 210px;
+}
+.home-topicList .swiper-window .swiper-container2 {
+  margin-left: 15px;
+  width: 100%;
+  height: 210px;
+}
+.home-topicList .swiper-window .swiper-container2 .swiper-box {
+  width: 290px;
+  height: 210px;
+  font-size: 14px;
+  padding-right: 20px;
+}
+.home-topicList .swiper-window .swiper-container2 .swiper-box .swiperImg {
+  width: 290px;
+  height: 161px;
+  border-radius: 5px;
+}
+.home-topicList .swiper-window .swiper-container2 .swiper-box .sp1 {
+  padding-top: 12px;
+  display: flex;
+  justify-content: space-between;
+  width: 290px;
+}
+.home-topicList .swiper-window .swiper-container2 .swiper-box .sp1 .sp2 {
+  font-size: 16px;
+  color: #c04a4e;
+}
+.home-topicList .swiper-window .swiper-container2 .swiper-box .sp3 {
+  line-height: 20px;
+  color: #7f7f7f;
+}

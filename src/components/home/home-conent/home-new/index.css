@@ -1,0 +1,44 @@
+.newImg {
+  width: 375px;
+  height: 130px;
+  background-image: url("./images/new.png");
+  background-repeat: no-repeat;
+  background-size: 375px 130px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.newImg .newSpan {
+  font: 400 20px/40px '微软雅黑';
+  color: #94a8bd;
+}
+.newImg .isColor {
+  color: #c5b491;
+}
+.newImg .lookAll {
+  width: 120px;
+  height: 28px;
+  background-color: #d8e5f1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.newImg .lookAll span {
+  font-size: 16px;
+  color: #94a8bd;
+}
+.newImg .lookAll .isAll {
+  color: #c5b491;
+}
+.newImg .lookAll img {
+  width: 4px;
+  height: 11px;
+  margin-left: 4px;
+}
+.newImg .isBox {
+  background-color: #f4e9cb;
+}
+.isShow {
+  background-image: url("./images/new2.png");
+}

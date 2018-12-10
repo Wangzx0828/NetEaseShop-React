@@ -1,0 +1,56 @@
+@media only screen and (-webkit-device-pixel-ratio: 2) {
+  .border-1px::before {
+    transform: scaleY(0.5);
+  }
+}
+@media only screen and (-webkit-device-pixel-ratio: 3) {
+  .border-1px::before {
+    transform: scaleY(0.333333);
+  }
+}
+.goodheader {
+  position: relative;
+  border: none;
+  width: 100%;
+  height: 44px;
+  background-color: #fff;
+  padding: 0 12px;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.goodheader:after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 1px;
+  background-color: #eee;
+  transform: scaleY(0.5);
+}
+.goodheader .icon-shouye2 {
+  font-size: 24px;
+}
+.goodheader .yanxuanImg {
+  padding-left: 40px;
+  width: 86px;
+  height: 27px;
+}
+.goodheader .header-right {
+  display: flex;
+  align-items: center;
+}
+.goodheader .header-right .searchImg {
+  padding-right: 10px;
+  width: 24px;
+  height: 24px;
+}
+.goodheader .header-right .shopImg {
+  width: 32px;
+  height: 32px;
+  background-image: url("../../static/image/icons.png");
+  background-size: 100px 200px;
+  background-repeat: no-repeat;
+}

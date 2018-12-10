@@ -1,0 +1,27 @@
+.goods-littlecarousel {
+  height: 110px;
+  margin: 28px 0 18px;
+  overflow: hidden;
+}
+.goods-littlecarousel .swiper-container4 {
+  width: 100%;
+  height: 100%;
+}
+.goods-littlecarousel .swiper-container4 .swiper-cart {
+  text-align: center;
+  font-size: 12px;
+}
+.goods-littlecarousel .swiper-container4 .swiper-cart .article {
+  position: absolute;
+  top: 0;
+  right: 6px;
+  line-height: 14px;
+  color: #fff;
+  background-image: url("./images/bg.png");
+}
+.goods-littlecarousel .swiper-container4 .swiper-cart img {
+  width: 82px;
+  height: 82px;
+  margin-bottom: 12px;
+  border-radius: 8px;
+}

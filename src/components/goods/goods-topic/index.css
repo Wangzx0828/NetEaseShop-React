@@ -1,0 +1,61 @@
+.goods-topic {
+  height: 276px;
+  width: 100%;
+  overflow: hidden;
+}
+.goods-topic .goods-topic-header {
+  height: 60px;
+  text-align: center;
+  line-height: 60px;
+  font-size: 14px;
+}
+.goods-topic .swiper-container5 {
+  padding-left: 10px;
+  height: 206px;
+}
+.goods-topic .swiper-container5 .swiper-cartbox {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 290px;
+  height: 206px;
+  display: flex;
+}
+.goods-topic .swiper-container5 .swiper-cartbox .goodscartImg {
+  height: 206px;
+}
+.goods-topic .swiper-container5 .swiper-cartbox .goodscartText {
+  color: #000;
+  height: 206px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: center;
+}
+.goods-topic .swiper-container5 .swiper-cartbox .goodscartText .goodscartDay {
+  display: flex;
+  flex-direction: column;
+}
+.goods-topic .swiper-container5 .swiper-cartbox .goodscartText .goodscartText-sp1 {
+  padding-top: 12px;
+  font-size: 12px;
+  color: #7f7f7f;
+}
+.goods-topic .swiper-container5 .swiper-cartbox .goodscartText .goodscartText-sp2 {
+  font-size: 12px;
+  padding-bottom: 52px;
+}
+.goods-topic .swiper-container5 .swiper-cartbox .goodscartText .goodscartDaysp1 {
+  font-size: 20px;
+  font-weight: 700;
+}
+.goods-topic .swiper-container5 .swiper-cartbox .goodscartText .goodscartDaysp2 {
+  font-size: 14px;
+  margin-top: 12px;
+}

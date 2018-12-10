@@ -1,0 +1,57 @@
+@import "../../common/stylus/mixins.styl"
+#footerNav
+  top-border-1px(#F5F5F5)
+  position fixed
+  z-index 1
+  background-color: #fff
+  bottom 0
+  left:0
+  height 49px
+  width 100%
+  .footList
+    display flex
+    flex-direction row
+    justify-content space-around
+    height 100%
+    width 100%
+    li
+      height 100%
+      width 20%
+      display flex
+      flex-direction column
+      justify-content center
+      align-items center
+      a
+        display flex
+        flex-direction column
+        justify-content center
+        align-items center
+        color gray
+        .icondiv1,.icondiv2,.icondiv3,.icondiv4,.icondiv5
+          width 21px
+          height 21px
+          background-image: url('./images/nav.png')
+          background-size 20px
+          background-repeat no-repeat
+          &.icondiv11
+            background-position 0 -100px
+          &.icondiv22
+            background-position 0 -150px
+          &.icondiv33
+            background-position 0 -50px
+          &.icondiv44
+            background-position 0 0
+          &.icondiv55
+            background-position 0 -200px
+        .icondiv1
+          background-position 0 -125px
+        .icondiv2
+          background-position 0 -175px
+        .icondiv3
+          background-position 0 -75px
+        .icondiv4
+          background-position 0 -25px
+        .icondiv5
+          background-position 0 -225px
+        span
+          font-size 12px
